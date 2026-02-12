@@ -2,4 +2,4 @@ FROM ubuntu
 RUN apt update -y
 RUN apt install apache -y
 EXPOSE 80
-CMD["apache22ctl","-D","FOREGROUND"]
+CMD["apache2ctl","-D","FOREGROUND"]
